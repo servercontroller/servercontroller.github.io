@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  flex: 1 0 auto;
+  max-width: 800px;
+  margin: auto;
+}
+
+#title {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+#subtitle {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+.main-card {
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 801px) {
+    #title {
+      font-size: 10vw;
+    }
+
+    #subtitle {
+      font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    #title {
+      font-size: 8vw;
+    }
+
+    #subtitle {
+      font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    #title {
+      font-size: 6vw;
+    }
+
+    #subtitle {
+      font-size: 3vw;
+    }
+}
